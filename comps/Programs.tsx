@@ -14,8 +14,9 @@ export default function Programs() {
     }, []);
 
     return (
-        <>
+        <div className=' columns-2'>
             {programs.map((program, index) => (
+                <section>
                 <ProgramTile
                     key={index}
                     title={program.name}
@@ -23,7 +24,9 @@ export default function Programs() {
                     url={program.link}
                     stipend={program.stipend}
                 />
+                </section>
+
             ))}
-        </>
+        </div>
     );
 }
