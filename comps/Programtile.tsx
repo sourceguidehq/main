@@ -10,7 +10,7 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-  } from "@/components/ui/card"
+  } from "@/components/ui/pcard"
 
 type Props = {
     title:string,
@@ -22,6 +22,8 @@ type Props = {
 
 export default function Programtile({title,body,url,stipend}: Props) {
   return (
+  
+
     <Card className='w-[450px] p-1'>
   <CardHeader>
     <CardTitle>{title}</CardTitle>
@@ -32,9 +34,11 @@ export default function Programtile({title,body,url,stipend}: Props) {
       Link
     </Button></a>
     <br></br>
-    <Badge variant="outline">{stipend}</Badge>
+    <Badge variant="outline">Stipend:{stipend}</Badge>
   </CardContent>
   </Card>
+
+
 
   )
 }

@@ -14,9 +14,13 @@ export default function Programs() {
     }, []);
 
     return (
-        <>
+        <div className=' columns-2'>
             {programs.map((program, index) => (
+<<<<<<< HEAD
                 
+=======
+                <section>
+>>>>>>> 30f5e67a07c136e9730a30987afd23ff5bc4a52a
                 <ProgramTile
                     
                     title={program.name}
@@ -24,8 +28,15 @@ export default function Programs() {
                     url={program.link}
                     stipend={program.stipend}
                 />
+<<<<<<< HEAD
                
             )) }
         </>
+=======
+                </section>
+
+            ))}
+        </div>
+>>>>>>> 30f5e67a07c136e9730a30987afd23ff5bc4a52a
     );
 }
