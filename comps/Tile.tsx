@@ -1,6 +1,7 @@
 import React from 'react';
 import { cn } from "@/lib/utils"
 import { Badge } from "@/components/ui/badge"
+import ReactHtmlParser from 'react-html-parser';
 import {
     Card,
     CardContent,
@@ -20,11 +21,25 @@ type Props = {
 }
 
 export default function Tile({title,body,organization,language,label,date}: Props) {
+
+
+
+
+      // const new_body = (truncateText(body,10))
+
+      function truncateText(text, maxLength) {
+        if (text.length > maxLength) {
+          return text.slice(0, maxLength) + '...';
+        }
+        return text;
+      }
+      const new_body = truncateText(body,250);
+
   return (
     <Card className='w-[450px] p-1'>
   <CardHeader>
     <CardTitle>{title}</CardTitle>
-    <CardDescription>{body}</CardDescription>
+    <CardDescription className='text-clip'>{new_body}</CardDescription>
   </CardHeader>
   <CardContent>
     <Badge>{language}</Badge>
