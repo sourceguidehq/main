@@ -23,25 +23,21 @@ const Collection: React.FC = () => {
     const apiUrl = `https://api.github.com/search/issues?q=is:open+is:issue+org:${org.org}`;
     const { data, error } = useSWR(apiUrl, fetcher);
 
-    
-
     if (error) return <div key={org.org}>Failed to load for {org.org}</div>;
-    
 
-    // const firstIssue = data.items[0];
-    console.log(data.)
-    data.items.map((item)=>{
-      return (
-        <Tile
-          key={item.id}
-          title={item.title}
-          body={item.body}
-          organization={item.org}
-          language={item.language}
-          date={item.created_at}
-        />
-      );
-    })
+    // Ensure data is available and has items
+    if (!data || !data.items) return null;
+
+    return data.items.map((item) => (
+      <Tile
+        key={item.id}
+        title={item.title}
+        body={item.body}
+        organization={org.org} // Use org.org, assuming you want the organization from the org object
+        language={org.language} // Use org.language, assuming you want the language from the org object
+        date={item.created_at}
+      />
+    ));
   });
 
   return <main className='m-4'>{tiles}</main>;
