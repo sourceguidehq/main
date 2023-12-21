@@ -16,14 +16,16 @@ export default function Programs() {
     return (
         <>
             {programs.map((program, index) => (
+                
                 <ProgramTile
-                    key={index}
+                    
                     title={program.name}
                     body={program.desc}
                     url={program.link}
                     stipend={program.stipend}
                 />
-            ))}
+               
+            )) }
         </>
     );
 }
