@@ -1,0 +1,316 @@
+[
+    {
+      "name": "MLH Open Source Fellowship",
+      "link": "https://fellowship.mlh.io/",
+      "desc": "MLH's fellowship program for aspiring open source contributors.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Season of KDE",
+      "link": "https://season.kde.org/",
+      "desc": "Opportunity to contribute to KDE community projects.",
+      "stipend": "No"
+    },
+    {
+      "name": "Summer of Bitcoin",
+      "link": "https://www.summerofbitcoin.org/",
+      "desc": "Engage in Bitcoin-related projects during the summer.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Radare Summer of Code",
+      "link": "https://rada.re/gsoc/2020/",
+      "desc": "Participate in Radare's GSoC program.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Open Mainframe Project - Linux Foundation",
+      "link": "https://www.openmainframeproject.org/projects/internship-program",
+      "desc": "Linux Foundation's internship program for mainframe projects.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "RGSOC",
+      "link": "https://railsgirlssummerofcode.org/",
+      "desc": "Rails Girls Summer of Code program for women and non-binary coders.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Summer of Haskell",
+      "link": "https://summer.haskell.org/",
+      "desc": "Haskell programming language community's summer program.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "LFN Mentorship Program",
+      "link": "https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program",
+      "desc": "Linux Foundation Networking's mentorship program.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "RARE Technologies Student Incubator Programme",
+      "link": "https://rare-technologies.com/incubator/#details",
+      "desc": "RARE Technologies' student incubator program.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Free Software Foundation Internship",
+      "link": "https://www.fsf.org/volunteer/internships",
+      "desc": "Internship opportunities with the Free Software Foundation.",
+      "stipend": "No"
+    },
+    {
+      "name": "Processing Foundation Fellowship",
+      "link": "https://processingfoundation.org/fellowships/",
+      "desc": "Fellowship opportunities with the Processing Foundation.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Season of Docs",
+      "link": "https://developers.google.com/season-of-docs/",
+      "desc": "Google's program for technical writers to contribute to open source.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Open Summer of Code",
+      "link": "https://summerofcode.be/",
+      "desc": "Belgium's summer program for open source contributions.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Julia Summer of Code",
+      "link": "https://julialang.org/jsoc",
+      "desc": "Contribute to the Julia programming language during the summer.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "FOSSASIA Internship Programme",
+      "link": "https://fossasia.org/internship",
+      "desc": "FOSSASIA's internship program for open source development.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "XR Open Source Fellowship Program",
+      "link": "https://xrosfellowship.ficci.in/",
+      "desc": "Fellowship program for XR (Extended Reality) open source projects.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Outreachy",
+      "link": "https://www.gnome.org/outreachy/",
+      "desc": "Outreachy program supporting diversity in open source.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Hyperledger Mentorship Program",
+      "link": "https://wiki.hyperledger.org/display/INTERN/How+to+Apply",
+      "desc": "Mentorship opportunities with Hyperledger for blockchain projects.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "GSOC",
+      "link": "https://developers.google.com/open-source/gsoc/",
+      "desc": "Google Summer of Code program for students to work on open source projects.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Snowplow",
+      "link": "https://snowplowanalytics.com/company/careers/?gh_jid=1107068",
+      "desc": "Snowplow Analytics' career opportunities, including internships.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "The X.Org Endless Vacation of Code (EVoC)",
+      "link": "https://www.x.org/wiki/XorgEVoC/",
+      "desc": "X.Org's program for students contributing to X Window System projects.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Millennium Fellowship",
+      "link": "https://www.millenniumfellows.org/",
+      "desc": "Global program for young leaders and social impact projects.",
+      "stipend": "No"
+    },
+    {
+      "name": "Igalia Coding Experience Program",
+      "link": "https://www.igalia.com/coding-experience/",
+      "desc": "Igalia's coding experience program for students.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Linux Kernel Mentorship Program",
+      "link": "https://wiki.linuxfoundation.org/lkmp",
+      "desc": "Mentorship opportunities for contributing to the Linux kernel.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Alibaba Summer of Code",
+      "link": "https://developer.aliyun.com/special/summerofcode2019en",
+      "desc": "Alibaba's summer program for open source contributions.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Vectorised IO",
+      "link": "https://vectorized.io/scholarship/",
+      "desc": "Vectorized IO's scholarship program for computer science students.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Redox Summer Of Code",
+      "link": "https://www.redox-os.org/rsoc/",
+      "desc": "Redox OS's summer program for contributing to the operating system.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Programa de Estágio BEES",
+      "link": "https://programasambev.gupy.io/jobs/2987579",
+      "desc": "BEES internship program by Ambev for students.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Tencent Rhino-bird Open-source Training Program",
+      "link": "https://opensource.tencent.com/summer-of-code",
+      "desc": "Tencent's open-source training program for students.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "John Hunter Matplotlib Summer Fellowship",
+      "link": "https://www.numfocus.org/programs/john-hunter-technology-fellowship",
+      "desc": "Matplotlib's summer fellowship in honor of John Hunter.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Microsoft Reinforcement Learning Open Source Fest",
+      "link": "https://www.microsoft.com/en-us/research/academic-program/rl-open-source-fest/",
+      "desc": "Microsoft's fest for reinforcement learning in open source.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "PClub Summer Of Code",
+      "link": "https://www.pclubsummerofcode.in/",
+      "desc": "PES University's summer program for coding enthusiasts.",
+      "stipend": "No"
+    },
+    {
+      "name": "Nasqueron DevOps & Dev Open Source Program",
+      "link": "http://join.nasqueron.org/",
+      "desc": "Nasqueron's program for DevOps and development in open source.",
+      "stipend": "No"
+    },
+    {
+      "name": "Google Summer of Earth Engine",
+      "link": "https://sites.google.com/view/summerofearthengine/home",
+      "desc": "Google's program to contribute to Earth Engine projects.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Devtron",
+      "link": "https://devtron.ai/careers.html",
+      "desc": "Devtron's career opportunities, including internships.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "RubyMe Mentorship Program",
+      "link": "https://rubyme.org/",
+      "desc": "RubyMe's mentorship program for Ruby enthusiasts.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Social Summer Of Code (SSOC)",
+      "link": "https://hack2skill.com/hack/ssoc",
+      "desc": "Hack2Skill's program for social impact through coding.",
+      "stipend": "No"
+    },
+    {
+      "name": "Community Bridge Mentorship (by Linux Foundation)",
+      "link": "https://people.communitybridge.org/",
+      "desc": "Linux Foundation's mentorship program through Community Bridge.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Summer of Open Source Promotion Plan",
+      "link": "https://summer.iscas.ac.cn/",
+      "desc": "ISCAS's summer program promoting open source contributions.",
+      "stipend": "Yes"
+    },
+    {
+      "name": "Microsoft Learn Student Ambassador Program",
+      "link": "https://studentambassadors.microsoft.com/",
+      "desc": "Join Microsoft's program as a student ambassador.",
+      "stipend": "No"
+    },
+    {
+        "name": "Hacktoberfest",
+        "link": "https://hacktoberfest.digitalocean.com/",
+        "desc": "DigitalOcean's annual event promoting open source contributions in October.",
+        "stipend": "No"
+      },
+      {
+        "name": "Facebook Open Source",
+        "link": "https://opensource.facebook.com/",
+        "desc": "Facebook's open source projects and potential opportunities for contributions.",
+        "stipend": "Varies"
+      },
+      {
+        "name": "Google Season of Docs",
+        "link": "https://developers.google.com/season-of-docs/",
+        "desc": "Similar to Google Summer of Code but focused on documentation.",
+        "stipend": "Yes"
+      },
+      {
+        "name": "Rails Girls Summer of Code",
+        "link": "https://railsgirlssummerofcode.org/",
+        "desc": "Paid summer program supporting women and non-binary coders in open source.",
+        "stipend": "Yes"
+      },
+      {
+        "name": "Techtonica",
+        "link": "https://techtonica.org/",
+        "desc": "Apprenticeship program for women and non-binary adults in tech.",
+        "stipend": "Yes"
+      },
+      {
+        "name": "Women Who Code",
+        "link": "https://www.womenwhocode.com/",
+        "desc": "Global community and programs supporting women in technology.",
+        "stipend": "No"
+      },
+      {
+        "name": "NASA Internships",
+        "link": "https://intern.nasa.gov/",
+        "desc": "Internship opportunities at NASA for students interested in space-related projects.",
+        "stipend": "Yes"
+      },
+      {
+        "name": "Kaggle Competitions",
+        "link": "https://www.kaggle.com/competitions",
+        "desc": "Data science competitions on Kaggle with opportunities to win prizes.",
+        "stipend": "Yes"
+      },
+      {
+        "name": "Mozilla Open Source Support (MOSS)",
+        "link": "https://www.mozilla.org/en-US/moss/",
+        "desc": "Mozilla's program supporting open source projects and development.",
+        "stipend": "Yes"
+      },
+      {
+        "name": "Red Hat Internships",
+        "link": "https://www.redhat.com/en/jobs/students",
+        "desc": "Internship opportunities at Red Hat, a leading open source technology company.",
+        "stipend": "Yes"
+      },
+      {
+        "name": "IBM Developer Internships",
+        "link": "https://www.ibm.com/employment/entrylevel/",
+        "desc": "Internship opportunities at IBM with a focus on software development.",
+        "stipend": "Yes"
+      },
+      {
+        "name": "Eclipse Foundation",
+        "link": "https://www.eclipse.org/",
+        "desc": "Open source community with various projects and opportunities for contributions.",
+        "stipend": "No"
+      }
+  ]
+  
+  
