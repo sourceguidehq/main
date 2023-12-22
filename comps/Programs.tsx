@@ -14,7 +14,7 @@ export default function Programs() {
     }, []);
 
     return (
-        <div className='sm:grid grid-cols-2 my-0 justify-center items-center gap-4 '>
+        <div className='lg:grid grid-cols-2 my-0 justify-center items-center gap-4 '>
             {programs.map((program, index) => (
 
                 <ProgramTile
