@@ -53,11 +53,19 @@ export default function Hero({}: Props) {
       >
         GitHub
       </a> */}
+      <div className="space-x-4">
       <Link href="/issues">
      <Button>
       <CircleDot className="mr-2 h-4 w-4" /> See GSoC issues
     </Button>
     </Link>
+    <Link href='/about'>
+    <Button>
+      <CircleDot className="mr-2 h-4 w-4" /> Learn more
+    </Button>
+    </Link>
+
+    </div>
 
     </div>
   </div>
