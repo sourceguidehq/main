@@ -36,7 +36,7 @@ export default function Tile({title,body,organization,language,label,date}: Prop
       const new_body = truncateText(body,50);
 
   return (
-    <Card className='w-[350px] sm:w-[450px] h-[350px] m-2 p-1'>
+    <Card className='w-[350px] sm:w-[450px] h-[300px] m-2 p-1'>
   <CardHeader>
     <CardTitle>{title}</CardTitle>
     <CardDescription className='text-clip'>{new_body}</CardDescription>

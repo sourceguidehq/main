@@ -1,0 +1,17 @@
+[
+    {
+      "org": "calcom",
+      "language": "typescript",
+      "label": "good+first+issue"
+    },
+    {
+        "org": "processing",
+        "language": "javascript",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "amahi",
+        "language": "javascript",
+        "label": "good+first+issue"
+    }
+]

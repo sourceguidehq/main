@@ -2,30 +2,12 @@
 import React from 'react';
 import useSWR from 'swr';
 import Tile from './Tile.tsx';
-
+import organizations from '@/public/organizations.json'
 const Collection: React.FC = () => {
-  const orgs = [
-    {
-      org: 'calcom',
-      language: 'typescript',
-      label: 'good+first+issue',
-    },
-    {
-      org: 'processing',
-      language: 'javascript',
-      label: 'good+first+issue',
-    },
-    {
-      org: 'amahi',
-      language: 'javascript',
-      label: 'good+first+issue',
-    },
-  ];
-
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-  const tiles = orgs.map((org) => {
-    const apiUrl = `https://api.github.com/search/issues?q=is:open+is:issue+org:${org.org}&per_page=50`;
+  const tiles = organizations.map((org) => {
+    const apiUrl = `https://api.github.com/search/issues?q=is:open+is:issue+org:${org.org}+label:"${org.label}"`;
     const { data, error } = useSWR(apiUrl, fetcher);
 
     if (error) return <div key={org.org}>Failed to load for {org.org}</div>;
@@ -36,20 +18,21 @@ const Collection: React.FC = () => {
     return (
       <div key={org.org} className='lg:grid grid-cols-2 my-0 justify-center items-center gap-4 '>
         {data.items.map((item) => (
-          <Tile
-            key={item.id}
-            title={item.title}
-            body={item.body}
-            organization={org.org}
-            language={org.language}
-            date={item.created_at}
-          />
+          <a href={item.html_url} key={item.id}>
+            <Tile
+              title={item.title}
+              body={item.body}
+              organization={org.org}
+              language={org.language}
+              date={item.created_at}
+            />
+          </a>
         ))}
       </div>
     );
   });
 
-  return <main className='grid  my-0 mx-auto justify-center items-center gap-4 '>{tiles}</main>;
+  return <main className='grid my-0 mx-auto justify-center items-center gap-4 '>{tiles}</main>;
 };
 
 export default Collection;
