@@ -14,11 +14,14 @@ const Collection: React.FC = () => {
 
     // Ensure data is available and has items
     if (!data || !data.items) return null;
-
+    
     return (
       <div key={org.org} className='lg:grid grid-cols-2 my-0 justify-center items-center gap-4 '>
+        
         {data.items.map((item) => (
-          <a href={item.html_url} key={item.id}>
+          
+          <a href={item.html_url} key={item.id} target='_blank'>
+            
             <Tile
               title={item.title}
               body={item.body}
