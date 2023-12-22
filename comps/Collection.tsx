@@ -15,12 +15,17 @@ const Collection: React.FC = () => {
       language: 'javascript',
       label: 'good+first+issue',
     },
+    {
+      org:"amahi",
+      language:'javascript',
+      label: 'good+first+issue'
+    }
   ];
 
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
   const tiles = orgs.map((org) => {
-    const apiUrl = `https://api.github.com/search/issues?q=is:open+is:issue+org:${org.org}`;
+    const apiUrl = `https://api.github.com/search/issues?q=is:open+is:issue+org:${org.org}&per_page=50`;
     const { data, error } = useSWR(apiUrl, fetcher);
 
     if (error) return <div key={org.org}>Failed to load for {org.org}</div>;

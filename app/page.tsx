@@ -13,8 +13,8 @@ export default function Home() {
 
       
 
-      {/* <Collection/> */}
-      <Programs />
+      <Collection/>
+      {/* <Programs /> */}
    
 
     </main>
