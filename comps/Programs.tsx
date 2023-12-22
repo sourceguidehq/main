@@ -2,8 +2,20 @@
 import React, { useEffect, useState } from 'react';
 import ProgramTile from "./Programtile";
 
-export default function Programs() {
+type Props ={ 
+     filter_option:"Yes"|"No"|"";
+}
+
+
+export default function Programs({filter_option}:Props ){
     const [programs, setPrograms] = useState([]);
+    const [filter,setFilter] = useState("");
+
+    useEffect(()=>{ 
+        if(filter_option === "Yes")setFilter("No");
+        if(filter_option === "No")setFilter("Yes");    
+    },[filter_option])
+    
 
     useEffect(() => {
         // Fetch data from the JSON file
@@ -15,18 +27,20 @@ export default function Programs() {
 
     return (
         <div className='lg:grid grid-cols-2 my-0 justify-center items-center gap-4 '>
-            {programs.map((program, index) => (
+            {programs.map((program, index) => {
 
-                <ProgramTile
-                    
-                    title={program.name}
-                    body={program.desc}
-                    url={program.link}
-                    stipend={program.stipend}
-                />
-    
-
-            ))}
+                if (program.stipend != filter) {
+                    return (
+                      <ProgramTile
+                        key={index}  // Make sure to include a unique key for each element in the array
+                        title={program.name}
+                        body={program.desc}
+                        url={program.link}
+                        stipend={program.stipend}
+                      />
+                    );
+                  }
+                })}
         </div>
     );
 }
