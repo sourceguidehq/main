@@ -39,7 +39,7 @@ export default function Hero({}: Props) {
       Welcome to SourceGuide
     </h1>
     <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-    Your Launchpad into the Open Source Universe! Discover exciting projects, internships, and mentorships in one place.
+    Your Launchpad into the Open Source Universe! Discover exciting projects, internships, and Beginner Friendly GSOC issues in one place.
     </p>
     <div className="space-x-4">
       {/* <a href="/login">
