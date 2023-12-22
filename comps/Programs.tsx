@@ -14,9 +14,9 @@ export default function Programs() {
     }, []);
 
     return (
-        <div className=' columns-2'>
+        <div className='sm:grid grid-cols-2 my-0 justify-center items-center gap-4 '>
             {programs.map((program, index) => (
-                <section>
+
                 <ProgramTile
                     
                     title={program.name}
@@ -24,7 +24,7 @@ export default function Programs() {
                     url={program.link}
                     stipend={program.stipend}
                 />
-                </section>
+    
 
             ))}
         </div>

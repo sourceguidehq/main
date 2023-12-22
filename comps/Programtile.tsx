@@ -24,18 +24,22 @@ export default function Programtile({title,body,url,stipend}: Props) {
   return (
   
 
-    <Card className='w-[450px] p-1'>
+    <Card className='w-[450px] h-[250px] mx-auto my-0 p-1'>
   <CardHeader>
     <CardTitle>{title}</CardTitle>
     <CardDescription>{body}</CardDescription>
   </CardHeader>
-  <CardContent>
-  <a href={url} target="_blank" rel="noopener noreferrer"><Button>
+  <CardFooter className='mt-6 flex flex-col justify-start items-start gap-2'>
+
+    <a href={url} className='block' target="_blank" rel="noopener noreferrer">
+      <Button>
       Link
-    </Button></a>
-    <br></br>
+     </Button>
+     </a>
+
     <Badge variant="outline">Stipend:{stipend}</Badge>
-  </CardContent>
+
+  </CardFooter>
   </Card>
 
 
