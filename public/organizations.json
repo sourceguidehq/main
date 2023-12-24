@@ -13,5 +13,39 @@
         "org": "amahi",
         "language": "javascript",
         "label": "good+first+issue"
+    },
+    {
+        "org": "52North",
+        "language": "java",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "ArduPilot",
+        "language": "python",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "BRL-CAD",
+        "language": "C++",
+        "label": "good+first+issue" 
+    },
+    {
+        "org": "beagleboard",
+        "language": "C",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "CCExtractor",
+        "language": "C",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "RocketChat",
+        "language": "typescript",
+        "label": "good+first+issue"
     }
+    
+    
+
+    
 ]
