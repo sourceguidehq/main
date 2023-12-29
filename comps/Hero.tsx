@@ -32,6 +32,7 @@ export default function Hero({}: Props) {
     <a
       className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium"
       target="_blank"
+      href='https://github.com/sourceguidehq'
     >
       <Badge>Follow along on Github</Badge>
     </a>

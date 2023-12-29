@@ -43,6 +43,26 @@
         "org": "RocketChat",
         "language": "typescript",
         "label": "good+first+issue"
+    },
+    {
+        "org": "CERN",
+        "language": "python",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "CGAL",
+        "language": "c++",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "cncf",
+        "language": "go",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "dbpedia",
+        "language": "java",
+        "label": "good+first+issue"
     }
     
     
