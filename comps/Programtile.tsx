@@ -24,7 +24,7 @@ export default function Programtile({title,body,url,stipend}: Props) {
   return (
   
 
-    <Card className='w-[350px] sm:w-[450px] h-[250px] mx-auto my-2 p-1'>
+    <Card className='w-[350px] sm:w-[450px] h-[250px] mx-auto my-2 p-1 dark:bg-[#2A2C31] shadow-xl'>
   <CardHeader>
     <CardTitle>{title}</CardTitle>
     <CardDescription>{body}</CardDescription>

@@ -29,7 +29,7 @@ export default function programs() {
   
     return (
       <div>
-        <section className="mx-4">
+        <section className="mx-4 ">
         <Filter onFilterChange={handleFilterChange} />
         </section>
         <Programs filter_option={filterOption} />

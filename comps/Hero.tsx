@@ -27,7 +27,7 @@ export default function Hero({}: Props) {
   //   </section>
   // </section>
 
-  <section className="space-y-6 h-[90%] dark:bg-gray-900 flex justify-center pb-8 font-poppins pt-6 md:pb-12 md:pt-10 lg:py-32 dark:text-white">
+  <section className="space-y-6 h-[90%] dark:bg-[#09090B] flex justify-center pb-8 font-poppins pt-6 md:pb-12 md:pt-10 lg:py-32 dark:text-white">
   <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
     <a
       className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium"

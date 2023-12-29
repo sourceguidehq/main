@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark:bg-gray-900">
+    <html lang="en" className="dark:bg-[#09090B]">
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link rel="preconnect" href="https://api.github.com" />
       <body className={inter.className}>

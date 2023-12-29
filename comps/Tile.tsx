@@ -40,7 +40,7 @@ export default function Tile({ title, body, organization, language, label, date 
     const formattedDate = formatRelativeDate(date);
 
     return (
-        <Card className='w-[350px] sm:w-[450px] h-[300px] m-2 p-1'>
+        <Card className='w-[350px] sm:w-[450px] h-[300px] m-2 p-1 dark:bg-[#2A2C31] '>
             <CardHeader>
                 <CardTitle>{title}</CardTitle>
                 <CardDescription className='text-clip'>{new_body}</CardDescription>

@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 
 export default function Issues() {
   return (
-    <div className="space-y-6 dark:bg-gray-900 dark:text-white p-8 font-poppins">
+    <div className="space-y-6 dark:bg-[#09090B] dark:text-white p-8 font-poppins">
       <div className="container flex flex-col items-center gap-4 text-center">
         <h1 className="tracking-tight font-semibold text-3xl sm:text-5xl md:text-6xl lg:text-7xl mb-4">
           Beginner-Friendly GSOC Issues
