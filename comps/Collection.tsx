@@ -12,7 +12,7 @@ const Collection: React.FC = () => {
     const { data, error } = useSWR(apiUrl, fetcher);
     
 
-    if (error) return <div key={org.org}>Failed to load for {org.org}</div>;
+    //if (error) return <div key={org.org}>Failed to load for {org.org}</div>;
 
     // Ensure data is available and has items
     if (!data || !data.items){

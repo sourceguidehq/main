@@ -23,6 +23,7 @@ type Props = {
 export default function Tile({ title, body, organization, language, label, date }: Props) {
     // Function to truncate text
     function truncateText(text, maxLength) {
+        if(!text) return null;
         if (text.length > maxLength) {
             return text.slice(0, maxLength) + '...';
         }

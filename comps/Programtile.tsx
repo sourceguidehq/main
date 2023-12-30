@@ -11,7 +11,7 @@ import {
     CardHeader,
     CardTitle,
   } from "@/components/ui/pcard"
-
+import { CircleDollarSign , Link2} from 'lucide-react';
 type Props = {
     title:string,
     body:string,
@@ -33,11 +33,12 @@ export default function Programtile({title,body,url,stipend}: Props) {
 
     <a href={url} className='block' target="_blank" rel="noopener noreferrer">
       <Button>
+      <Link2 className='mr-1 w-5 h-5'/>
       Link
      </Button>
      </a>
 
-    <Badge variant="outline">Stipend:{stipend}</Badge>
+    <Badge variant="outline"> <CircleDollarSign className='mr-1 w-5 h-5'/>Stipend:{stipend}</Badge>
 
   </CardFooter>
   </Card>

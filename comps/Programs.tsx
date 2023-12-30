@@ -26,7 +26,7 @@ export default function Programs({filter_option}:Props ){
     }, []);
 
     return (
-        <div className='lg:grid grid-cols-2 my-0 justify-center items-center gap-4 '>
+        <div className='lg:grid grid-cols-3 my-0 justify-center items-center gap-4 '>
             {programs.map((program, index) => {
 
                 if (program.stipend != filter) {

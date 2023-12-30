@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from "@/components/ui/button";
 import Link from 'next/link';
 import { Badge } from "@/components/ui/badge"
-import { CircleDot} from "lucide-react"
+import { CircleDot,  Blocks,Github} from "lucide-react"
 
 
 type Props = {}
@@ -34,7 +34,7 @@ export default function Hero({}: Props) {
       target="_blank"
       href='https://github.com/sourceguidehq'
     >
-      <Badge>Follow along on Github</Badge>
+      <Badge> <Github className="mr-2 h-5 w-5" />Follow along on Github</Badge>
     </a>
     <h1 className=" tracking-tight font-semibold text-3xl sm:text-5xl md:text-6xl  lg:text-7xl">
       Welcome to SourceGuide
@@ -62,7 +62,7 @@ export default function Hero({}: Props) {
     </Link>
     <Link href='/about'>
     <Button>
-      <CircleDot className="mr-2 h-4 w-4" /> Learn more
+      < Blocks className="mr-2 h-4 w-4" /> Learn more
     </Button>
     </Link>
 
