@@ -18,7 +18,7 @@ import {
   
 
 
-// ... (import statements remain the same)
+
 
 export default function programs() {
     const [filterOption, setFilterOption] = useState("");
@@ -30,6 +30,15 @@ export default function programs() {
     return (
       <div>
         <section className="mx-4 ">
+        <div className="container flex flex-col items-center gap-4 text-center">
+        <h1 className="tracking-tight font-semibold text-2xl sm:text-5xl md:text-6xl lg:text-5xl mb-4 dark:text-white">
+          Opensource Programs List
+        </h1>
+        <p className="max-w-[42rem] leading-normal dark:text-white text-muted-foreground sm:text-xl sm:leading-8">
+        Discover a curated collection of diverse open source programs. Filter based on stipend availability and find opportunities that match your interests and skills.
+        
+        </p>
+      </div>
         <Filter onFilterChange={handleFilterChange} />
         </section>
         <Programs filter_option={filterOption} />
@@ -46,14 +55,14 @@ export default function programs() {
     }, [opt, onFilterChange]);
   
     return (
-      <div className="dark:text-white">
+      <div className="dark:text-white dark:bg-[#09090B]">
         <Dialog>
           <DialogTrigger asChild>
             <Button variant="outline">Filters</Button>
           </DialogTrigger>
           <DialogContent className="sm:max-w-md">
-            <DialogHeader className="dark:text-white">
-              <DialogTitle className="dark:text-white">Filters</DialogTitle>
+            <DialogHeader className="dark:text-white ">
+              <DialogTitle className="dark:text-white ">Filters</DialogTitle>
             </DialogHeader>
             <div className="flex items-center space-x-2">
             <DialogClose asChild>

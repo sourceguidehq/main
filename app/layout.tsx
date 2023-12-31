@@ -23,8 +23,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark:bg-[#09090B]">
+      <link rel="icon" type="image/x-icon" href="favicon.svg" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link rel="preconnect" href="https://api.github.com" />
+      
       <body className={inter.className}>
         <Navbar />
         {children}

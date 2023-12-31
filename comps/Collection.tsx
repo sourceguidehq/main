@@ -3,6 +3,7 @@ import React from 'react';
 import useSWR from 'swr';
 import Tile from './Tile.tsx';
 import organizations from '@/public/organizations.json'
+
 const Collection: React.FC = () => {
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
   let flag=1;
