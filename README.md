@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SourceGuide Project
 
-## Getting Started
+Welcome to SourceGuide – your hub for navigating the expansive realm of open-source opportunities. Discover projects, connect with mentors, and become a part of the thriving open-source community!
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contributors](#contributors)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
+SourceGuide is your gateway to the world of open-source software development. Whether you're a seasoned developer looking for new projects or a newcomer eager to explore and contribute, SourceGuide has something for everyone. Discover opportunities, connect with like-minded individuals, and make a meaningful impact on the open-source community.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To use SourceGuide effectively, follow these tips:
 
-## Learn More
+1. **Explore the "Issues" Section:**
+   - Find beginner-friendly tasks and GSOC issues by exploring our "Issues" section.
 
-To learn more about Next.js, take a look at the following resources:
+2. **Connect on Discord:**
+   - Join our Discord channel to seek help, collaborate with the community, and stay connected.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Stay Updated on GitHub:**
+   - Keep track of the latest announcements and discussions by following our GitHub repository.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Contribute and Innovate:**
+   - Contribute to ongoing projects or start your own initiatives. Your contributions make a difference!
 
-## Deploy on Vercel
+Happy coding!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute to the project, please read our [Contributing Guide](contributing.md) for detailed instructions.
+
+## License
+
+SourceGuide is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for both personal and commercial projects. Make sure to include the original license in your derivatives.
+
+By contributing to this project, you agree that your contributions will be licensed under the MIT License.
+
+Happy coding!
+
+## Contributors
+
+We appreciate all the contributors who have helped make SourceGuide better. Here is a list of amazing individuals:
+<center> 
+<table>
+  <thead>
+    <tr>
+      <th>Contributor</th>
+      <th>GitHub Profile</th>
+      <th>Profile Image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ezhill Ragesh</td>
+      <td><a href="https://github.com/ezhillragesh">GitHub</a></td>
+      <td><img src="https://github.com/ezhillragesh.png" width="30" height="30" alt="Ezhill Ragesh"></td>
+    </tr>
+    <tr>
+      <td>Adithya Nandish</td>
+      <td><a href="https://github.com/ashura-code">GitHub</a></td>
+      <td><img src="https://github.com/ashura-code.png" width="30" height="30" alt="Adithya Nandish"></td>
+    </tr>
+  </tbody>
+</table></center>
+
+If you've contributed and would like to be included in this list, please follow our [Contribution Guidelines](CONTRIBUTING.md).

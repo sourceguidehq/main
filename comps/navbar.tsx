@@ -29,7 +29,7 @@ export default function Navbar() {
             href="/"
           >
         
-            <Image src="/sg.png" alt="logo" width={40} height={40}/>
+            <Image src="/favicon.svg" alt="logo" width={40} height={40}/>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
