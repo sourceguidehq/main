@@ -51,7 +51,7 @@
     },
     {
         "org": "CGAL",
-        "language": "c++",
+        "language": "C++",
         "label": "good+first+issue"
     },
     {
@@ -62,6 +62,16 @@
     {
         "org": "dbpedia",
         "language": "java",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "git",
+        "language": "C",
+        "label": "good+first+issue"
+    },
+    {
+        "org": "OpenChemistry",
+        "language": "python",
         "label": "good+first+issue"
     }
     

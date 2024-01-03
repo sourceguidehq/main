@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               <ul className="text-gray-500 dark:text-gray-400 font-medium flex space-x-4 justify-center">
                 <li>
                   <a
-                    href="LINKEDIN_PROFILE_LINK"
+                    href="https://www.linkedin.com/company/sourceguide"
                     className="hover:text-gray-900 dark:hover:text-white"
                   >
                     <LinkedInLogoIcon className="w-5 h-5" />
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="DISCORD_INVITE_LINK"
+                    href="https://discord.gg/t3Gzz9bF"
                     className="hover:text-gray-900 dark:hover:text-white"
                   >
                     <DiscordLogoIcon className="w-5 h-5" />

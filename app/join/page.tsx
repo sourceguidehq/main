@@ -28,7 +28,7 @@ const JoinUsPage: React.FC = () => {
           <Link href="https://github.com/sourceguidehq">
             <Button> <Github className="mr-2 h-5 w-5" />Contribute Now</Button>
           </Link>
-          <a href="DISCORD_INVITE_LINK" target="_blank" rel="noreferrer"> 
+          <a href="https://discord.gg/t3Gzz9bF" target="_blank" rel="noreferrer"> 
             <Button> <Gamepad2 className="mr-2 h-5 w-5" /> Join Discord Server</Button>
           </a>
         </div>
