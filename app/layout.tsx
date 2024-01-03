@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/comps/navbar';
 import Footer from '@/comps/Footer';
+import Script from 'next/script';
 
 const inter = Poppins({
   subsets: ['latin'],
@@ -26,12 +27,28 @@ export default function RootLayout({
       <link rel="icon" type="image/x-icon" href="favicon.svg" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link rel="preconnect" href="https://api.github.com" />
-      
+
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
+
       <body className={inter.className}>
         <Navbar />
         {children}
-        <div className=' my-14'></div>
-        <Footer/>
+        <div className=" my-14"></div>
+        <Footer />
       </body>
     </html>
   );
