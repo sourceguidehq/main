@@ -31,6 +31,7 @@ export default function Tile({ title, body, organization, language, label, date 
     }
 
     const new_body = truncateText(body, 50);
+    const new_title = truncateText(title,25);
 
     // Function to format the date
     function formatRelativeDate(dateString) {
@@ -43,7 +44,7 @@ export default function Tile({ title, body, organization, language, label, date 
     return (
         <Card className='w-[350px] sm:w-[450px] h-[300px] m-2 p-1 dark:bg-[#2A2C31] '>
             <CardHeader>
-                <CardTitle>{title}</CardTitle>
+                <CardTitle>{new_title}</CardTitle>
                 <CardDescription className='text-clip'>{new_body}</CardDescription>
             </CardHeader>
             <CardContent>
