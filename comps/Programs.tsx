@@ -7,7 +7,7 @@ type Props ={
 }
 
 
-export default function Program({filter_option}:Props ){
+export default function Programs({filter_option}:Props ){
     const [programs, setPrograms] = useState([]);
     const [filter,setFilter] = useState("");
 

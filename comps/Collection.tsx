@@ -23,7 +23,7 @@ const Collection: React.FC = () => {
       return JSON.parse(cachedData);
     } else {
       const apiUrl = `https://api.github.com/search/issues?q=is:open+is:issue+org:${org.org}+label:%22good+first+issue%22`;
-      const token =  process.env.NEXT_PUBLIC_AUTH_TOKEN;
+      const token = process.env.NEXT_PUBLIC_AUTH_TOKEN;
 
       try {
         const data = await fetcher(apiUrl, token);

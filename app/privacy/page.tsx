@@ -13,14 +13,14 @@ const PrivacyPolicy: React.FC = () => {
           Your privacy is important to us. This Privacy Policy explains how we handle user information when you visit our website.
         </p>
 
-        <h2 className="text-2xl font-semibold mb-2">Information We Don&apos;t Collect</h2>
+        <h2 className="text-2xl font-semibold mb-2">Information We Don't Collect</h2>
         <p className="mb-6">
           We want to assure you that we do not collect any personal information from users visiting our website. You can explore our site anonymously without providing any identifiable details.
         </p>
 
         <h2 className="text-2xl font-semibold mb-2">How We Use Your Information</h2>
         <p className="mb-6">
-          Since we don&apos;t collect any user information, there is no usage of such information. Your privacy is of utmost importance to us, and you can navigate our site without concerns about your personal data being used for any purposes.
+          Since we don't collect any user information, there is no usage of such information. Your privacy is of utmost importance to us, and you can navigate our site without concerns about your personal data being used for any purposes.
         </p>
 
         <h2 className="text-2xl font-semibold mb-2">Cookies</h2>
@@ -40,9 +40,9 @@ const PrivacyPolicy: React.FC = () => {
 
         <h2 className="text-2xl font-semibold mb-2">Contact Us</h2>
         <p className="mb-6">
-          If you have any questions or concerns about our Privacy Policy, please feel free to contact us at{' '}
+          If you have any questions or concerns about our Privacy Policy, please feel free to contact us at 
           <a href='mailto:ragesh@duck.com' className='text-blue-300'>
-            ragesh@duck.com
+          &nbsp;  ragesh@duck.com &nbsp;  
           </a>.
           
           We are committed to addressing any inquiries related to your privacy and data security.
@@ -50,13 +50,15 @@ const PrivacyPolicy: React.FC = () => {
 
         <h2 className="text-2xl font-semibold mb-2">Data Security</h2>
         <p className="mb-6">
-          We take the security of your data seriously. While we don&apos;t collect personal information, we employ measures to protect any data that may be collected through cookies or other means. Our security measures include encryption, access controls, and regular security assessments.
+          We take the security of your data seriously. While we don't collect personal information, we employ measures to protect any data that may be collected through cookies or other means. Our security measures include encryption, access controls, and regular security assessments.
         </p>
 
-        <h2 className="text-2xl font-semibold mb-2">Children&apos;s Privacy</h2>
+        <h2 className="text-2xl font-semibold mb-2">Children's Privacy</h2>
         <p className="mb-6">
           Our website is not directed at individuals under the age of 13. We do not knowingly collect information from children. If you believe that a child has provided us with personal information, please contact us, and we will take steps to delete such information.
         </p>
+
+        
       </div>
     </>
   );
