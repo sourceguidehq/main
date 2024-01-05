@@ -64,7 +64,7 @@ We appreciate all the contributors who have helped make SourceGuide better. Here
       <td><img src="https://github.com/ezhillragesh.png" width="30" height="30" alt="Ezhill Ragesh"></td>
     </tr>
     <tr>
-      <td>Adithya Nandish</td>
+      <td>Adhitya Nantish</td>
       <td><a href="https://github.com/ashura-code">GitHub</a></td>
       <td><img src="https://github.com/ashura-code.png" width="30" height="30" alt="Adithya Nandish"></td>
     </tr>
