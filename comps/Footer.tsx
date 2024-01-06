@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
                 width={40}
                 height={40}
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 SourceGuide
               </span>
             </a>    
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div className="text-center">
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase text-white">
                 Connect
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium flex space-x-4 justify-center">
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase text-white">
                 Explore
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -93,7 +93,7 @@ const Footer: React.FC = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
                 Legal
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
