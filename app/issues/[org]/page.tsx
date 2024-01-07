@@ -27,7 +27,7 @@ export default function page({ params }: { params: { org: string } }) {
           title={item.title}
           body={item.body}
           organization={params.org}
-          language={data.language}
+          language={localStorage.getItem(`orglang-${params.org}`)}
           date={item.created_at}
         />
       </Link>

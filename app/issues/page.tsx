@@ -34,6 +34,14 @@ export default function Issues() {
 }
 
 function Filter() {
+
+   const setLanguage = (name,language)=>{
+    localStorage.setItem(`orglang-${name}`,language);
+   }
+     
+   
+
+
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -50,7 +58,7 @@ function Filter() {
               </Button>
           {organizations.map((org) => (
               <Button size="sm" className="px-3" key={org.org}>
-                <Link href={`issues/${org.org}`}>{org.org}</Link>
+                <Link href={`issues/${org.org}`}onClick={()=>setLanguage(org.org,org.language)} >{org.org}</Link>
               </Button>
           ))}
         </div>
