@@ -6,7 +6,7 @@ import Navbar from '@/comps/navbar';
 import Footer from '@/comps/Footer';
 import Script from 'next/script';
 import Head from 'next/head';
-import GoogleAnalytics from "@bradgarropy/next-google-analytics"
+import GoogleAnalytics from '@/comps/GoogleAnalytics';
 const inter = Poppins({
   subsets: ['latin'],
   display: 'swap',
@@ -30,7 +30,7 @@ export default function RootLayout({
       <link rel="icon" type="image/x-icon" href="favicon.svg" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link rel="preconnect" href="https://api.github.com" />
-      <GoogleAnalytics measurementId="G-XX3K098BH3" />
+     
 
       </Head>
       
@@ -38,9 +38,14 @@ export default function RootLayout({
       
 
       <body className={inter.className}>
+        
         <Navbar />
         {children}
         <Analytics />
+        {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
+            <GoogleAnalytics ga_id= 
+            {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
+          ) : null}
         <div className=" my-14"></div>
         <Footer />
       </body>
