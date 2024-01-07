@@ -1,13 +1,34 @@
+"use client"
 import React from 'react'
+import Tile from '@/comps/Tile';
+
 
 type Props = {
     org:String
 }
 
 export default function page({ params }: { params: { org: string } }) {
+
+    const storedString = localStorage.getItem(`orgData-${params.org}`);
+    const data: any = JSON.parse(storedString);
+    console.log(data)
+
+
+    
   return (
-    <div className='dark:text-white'>
-        {params.org}
-        </div>
+    <div key={data.org} className='lg:grid grid-cols-2 my-0 justify-center items-center gap-4 '>
+    {data.items.map((item) => (
+      <a href={item.html_url} key={item.id} target='_blank' rel='noopener noreferrer'>
+        <Tile
+          title={item.title}
+          body={item.body}
+          organization={params.org}
+          language={data.language}
+          date={item.created_at}
+        />
+      </a>
+    ))}
+  </div>
+
   )
 }

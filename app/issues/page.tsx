@@ -45,11 +45,11 @@ function Filter() {
         </DialogHeader>
 
         <div className="flex items-center flex-wrap space-x-2 gap-7">
-            <Button size="sm" className="px-3" onClick={() => setOpt('')}>
+            <Button size="sm" className="px-3">
                 Remove filters
               </Button>
           {organizations.map((org) => (
-              <Button size="sm" className="px-3" onClick={() => setOpt('')}>
+              <Button size="sm" className="px-3" key={org.org}>
                 <Link href={`issues/${org.org}`}>{org.org}</Link>
               </Button>
           ))}
