@@ -5,7 +5,8 @@ import './globals.css';
 import Navbar from '@/comps/navbar';
 import Footer from '@/comps/Footer';
 import Script from 'next/script';
-
+import Head from 'next/head';
+import GoogleAnalytics from '@/comps/GoogleAnalytics';
 const inter = Poppins({
   subsets: ['latin'],
   display: 'swap',
@@ -25,30 +26,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark:bg-[#09090B]">
+      <Head>
       <link rel="icon" type="image/x-icon" href="favicon.svg" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link rel="preconnect" href="https://api.github.com" />
+     
 
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-      />
+      </Head>
+      
 
-      <Script strategy="lazyOnload">
-        {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-                    page_path: window.location.pathname,
-                    });
-                `}
-      </Script>
+      
 
       <body className={inter.className}>
+        
         <Navbar />
         {children}
         <Analytics />
+        {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
+            <GoogleAnalytics ga_id= 
+            {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
+          ) : null}
         <div className=" my-14"></div>
         <Footer />
       </body>
